@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/city"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="dskfjdglslfgkd"
+        android:textColor="@color/colorButton"
+        android:textStyle="bold" />
+
+</androidx.cardview.widget.CardView>

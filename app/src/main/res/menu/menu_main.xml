@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ru.gb.android1_lession8.MainActivity">
+    <group
+        android:orderInCategory="100"
+        android:checkableBehavior="single"
+        app:showAsAction="ifRoom">
+        <item
+            android:id="@+id/action_day"
+            android:orderInCategory="100"
+            android:title="@string/wordDay"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_night"
+            android:orderInCategory="100"
+            android:title="@string/wordNight"
+            app:showAsAction="never" />
+    </group>
+</menu>
