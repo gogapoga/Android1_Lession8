@@ -8,13 +8,36 @@
         app:showAsAction="ifRoom">
         <item
             android:id="@+id/action_day"
-            android:orderInCategory="100"
+            android:orderInCategory="0"
             android:title="@string/wordDay"
             app:showAsAction="never" />
         <item
             android:id="@+id/action_night"
-            android:orderInCategory="100"
+            android:orderInCategory="1"
             android:title="@string/wordNight"
+            app:showAsAction="never" />
+    </group>
+    <group
+        android:orderInCategory="100"
+        android:checkableBehavior="none"
+        app:showAsAction="ifRoom">
+        <item
+            android:id="@+id/checkWind"
+            android:orderInCategory="2"
+            android:title="@string/wordWind"
+            android:checkable="true"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/checkHumidity"
+            android:orderInCategory="3"
+            android:title="@string/wordHumidity"
+            android:checkable="true"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/checkPressure"
+            android:orderInCategory="4"
+            android:title="@string/wordPressure"
+            android:checkable="true"
             app:showAsAction="never" />
     </group>
 </menu>

@@ -5,6 +5,16 @@ public abstract class Style { //базовый класс для стилей, �
     // в ParamStyle можно подключить еще один стиль, в других классах ничего менять не надо
     protected int background;
     protected int colors;
+    protected int colorsPopupOverlay;
+    protected int colorsAppBarOverlay;
+
+    public int getColorsPopupOverlay() {
+        return colorsPopupOverlay;
+    }
+
+    public int getColorsAppBarOverlay() {
+        return colorsAppBarOverlay;
+    }
 
     public int getBackground() {
         return background;

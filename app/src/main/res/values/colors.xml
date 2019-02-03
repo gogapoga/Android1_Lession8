@@ -6,7 +6,7 @@
     <color name="colorNightPrimary">#22243b</color>
     <color name="colorNightPrimaryDark">#315c57</color>
     <color name="colorNightAccent">#6e739b</color>
-    <color name="colorButton">#10197c</color>
-    <color name="colorSetting">#fcfcfc</color>
+    <color name="colorButtonText">#10197c</color>
+    <color name="colorButtonBG">#D0E5FFF6</color>
     <color name="colorSelect">#F44336</color>
  </resources>

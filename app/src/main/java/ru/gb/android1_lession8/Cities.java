@@ -7,14 +7,16 @@ public class Cities {
     private int selectedLanguage = 0;
     private CityWeather[] ArrayVisibleCity;
     private CityWeather[] ArrayInvisibleCity;
-    private CityWeather[] arrayCity = {new CityWeather(selectedLanguage == 0 ? "Москва" : "Moscow"), new CityWeather(selectedLanguage == 0 ? "Воронеж" : "Voronezh"),
-            new CityWeather(selectedLanguage == 0 ? "Брянск" : "Bryansk"), new CityWeather(selectedLanguage == 0 ? "Липецк" : "Lipetsk"), new CityWeather(selectedLanguage == 0 ? "Рязань" : "Ryazan"),
-            new CityWeather(selectedLanguage == 0 ? "Новосибирск" : "Novosibirsk"), new CityWeather(selectedLanguage == 0 ? "Владивосток" : "Vladivostok"), new CityWeather(selectedLanguage == 0 ? "Хабаровск" : "Khabarovsk"),
-            new CityWeather(selectedLanguage == 0 ? "Чита" : "Chita"), new CityWeather(selectedLanguage == 0 ? "Уфа" : "Ufa"), new CityWeather(selectedLanguage == 0 ? "Калуга" : "Kaluga"), new CityWeather(selectedLanguage == 0 ? "Тверь" : "Tver", false),
-            new CityWeather(selectedLanguage == 0 ? "Чехов" : "Chekhov", false), new CityWeather(selectedLanguage == 0 ? "Подольск" : "Podolsk", false), new CityWeather(selectedLanguage == 0 ? "Тула" : "Tula", false), new CityWeather(selectedLanguage == 0 ? "Серпухов" : "Serpukhov", false)};
+    private CityWeather[] arrayCity;
 
     public Cities(int selectedLanguage) {
         this.selectedLanguage = selectedLanguage;
+        CityWeather[] arrayCity = {new CityWeather(selectedLanguage == 0 ? "Москва" : "Moscow"), new CityWeather(selectedLanguage == 0 ? "Воронеж" : "Voronezh"),
+                new CityWeather(selectedLanguage == 0 ? "Брянск" : "Bryansk"), new CityWeather(selectedLanguage == 0 ? "Липецк" : "Lipetsk"), new CityWeather(selectedLanguage == 0 ? "Рязань" : "Ryazan"),
+                new CityWeather(selectedLanguage == 0 ? "Новосибирск" : "Novosibirsk"), new CityWeather(selectedLanguage == 0 ? "Владивосток" : "Vladivostok"), new CityWeather(selectedLanguage == 0 ? "Хабаровск" : "Khabarovsk"),
+                new CityWeather(selectedLanguage == 0 ? "Чита" : "Chita"), new CityWeather(selectedLanguage == 0 ? "Уфа" : "Ufa"), new CityWeather(selectedLanguage == 0 ? "Калуга" : "Kaluga"), new CityWeather(selectedLanguage == 0 ? "Тверь" : "Tver", false),
+                new CityWeather(selectedLanguage == 0 ? "Чехов" : "Chekhov", false), new CityWeather(selectedLanguage == 0 ? "Подольск" : "Podolsk", false), new CityWeather(selectedLanguage == 0 ? "Тула" : "Tula", false), new CityWeather(selectedLanguage == 0 ? "Серпухов" : "Serpukhov", false)};
+        this.arrayCity = arrayCity;
     }
 
     public CityWeather[] getArrayVisibleCity() {

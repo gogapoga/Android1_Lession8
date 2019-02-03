@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:id="@+id/city"
     android:layout_width="match_parent"
     android:layout_height="50dp"
     android:layout_marginTop="5dp"
     android:layout_marginBottom="5dp"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardElevation="5dp"
+    card_view:cardBackgroundColor="@color/colorButtonBG"
     android:gravity="center">
 
     <TextView
         android:id="@+id/text"
-        android:layout_width="50dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center_vertical"
-        android:text="dskfjdglslfgkd"
-        android:textColor="@color/colorButton"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/colorButtonText"
         android:textStyle="bold" />
 
 </androidx.cardview.widget.CardView>

@@ -12,7 +12,16 @@ public class MyApplication extends Application { //класс для сохра�
     private int selectedLanguage = 0;
     private int selectedStyle = 0;
     private Style style = new Day();
-    private boolean settingListCities = false;
+
+    public int getNumberView() {
+        return numberView;
+    }
+
+    public void setNumberView(int numberView) {
+        this.numberView = numberView;
+    }
+
+    private int numberView = 0;
 
     public Cities getCities() {
         return cities;
@@ -23,14 +32,6 @@ public class MyApplication extends Application { //класс для сохра�
     }
 
     private Cities cities;
-
-    public boolean isSettingListCities() {
-        return settingListCities;
-    }
-
-    public void setSettingListCities(boolean settingListCities) {
-        this.settingListCities = settingListCities;
-    }
 
     @Override
     public void onCreate() {
