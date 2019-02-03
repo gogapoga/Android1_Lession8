@@ -39,7 +39,6 @@ public class CityWeather {
             wind[i] = (int) (Math.random() * 25) + 1;
         }
     }
-
     public String getName() {
         return name;
     }

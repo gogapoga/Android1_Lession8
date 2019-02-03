@@ -8,52 +8,21 @@
     tools:context=".MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="20dp"
-        android:layout_weight="1"
-        android:background="#00d9ff"
-        android:orientation="horizontal">
-
-        <CheckBox
-            android:id="@+id/checkWind"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="true"
-            android:text="@string/wordWind" />
-
-        <CheckBox
-            android:id="@+id/checkHumidity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="true"
-            android:text="@string/wordHumidity" />
-
-        <CheckBox
-            android:id="@+id/checkPressure"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="true"
-            android:text="@string/wordPressure" />
-
-    </LinearLayout>
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="20dp"
         android:fillViewport="true">
 
         <LinearLayout
             android:id="@+id/cities"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
             android:background="@drawable/day"
-            android:orientation="vertical"></LinearLayout>
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"></LinearLayout>
     </ScrollView>
 
 

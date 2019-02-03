@@ -32,6 +32,4 @@
     <style name="NightTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="NightTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
-
-
 </resources>
